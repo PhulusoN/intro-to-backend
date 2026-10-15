@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "intro to backend ",
+  "homepage": "https://github.com/PhulusoN/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/PhulusoN/intro-to-backend/issues"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhulusoN/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "phuluso",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/config/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2",
+    "nodemon": "^3.1.14"
+  }
+}
