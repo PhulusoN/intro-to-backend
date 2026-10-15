@@ -117,4 +117,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+.env
+atlas-credentials.env
+node_modules
+
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node

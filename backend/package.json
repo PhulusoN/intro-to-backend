@@ -6,17 +6,17 @@
   "bugs": {
     "url": "https://github.com/PhulusoN/intro-to-backend/issues"
   },
-  "type": "commonjs",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PhulusoN/intro-to-backend.git"
   },
   "license": "ISC",
   "author": "phuluso",
-  "main": "index.js",
+  "main": "src/config/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/config/index.js"
+    "start": "node src/config/index.js",
+    "dev": "node --watch src/config/index.js"
   },
   "dependencies": {
     "dotenv": "^18.0.7",
